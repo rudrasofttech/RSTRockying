@@ -41,7 +41,7 @@
         <div class="col">
             <div class="card h-100 special border-0 bg-transparent">
                 <a href='../book/<%: Utility.Slugify(mb.Book.Title, "book")%>-<%: mb.Book.ID %>' style="text-align: center;">
-                    <img src="<%: mb.Book.CoverPage %>" class="card-img-top bookphoto reading <%: mb.ReadingStartDate.HasValue ? "readingstart-" + mb.ReadingStartDate.Value.Year : "" %>" style="width: auto; max-width: 128px;" alt="" /></a>
+                    <img src="<%: mb.Book.CoverPage %>" class="card-img-top bookphoto reading <%: mb.ReadingStartDate.HasValue ? "readingstart-" + mb.ReadingStartDate.Value.Year : "" %>" style="width: auto; max-width: 128px;" alt="<%:mb.Book.Title %>" /></a>
                 <div class="card-body">
                     <%
                         var percentread = (int)(0.5f + ((100f * mb.CurrentPage) / mb.Book.PageCount));

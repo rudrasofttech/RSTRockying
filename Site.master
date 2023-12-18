@@ -49,6 +49,7 @@
             top: 0;
         }
     </style>
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=657fd8d464d64c00127f1459&product=sop' async='async'></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -128,7 +129,6 @@
         var _vtInit = new VTInit();
         _vtInit.initialize();
     </script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b07a3c59abc8fd5"></script>
     <script>
         // This is the "Offline page" service worker
 

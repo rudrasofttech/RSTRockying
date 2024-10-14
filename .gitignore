@@ -11,3 +11,14 @@
 /RSTRockying/{A6B1C991-A263-4123-97F6-76D5DE1A3037}
 /packages/Newtonsoft.Json.13.0.1
 /vwd.webinfo
+*.vsidx
+/.vs/RSTRockying/v17/.futdcache.v2
+/.vs/RSTRockying/v17/.suo
+/.vs/RSTRockying/v17/DocumentLayout.backup.json
+/.vs/RSTRockying/v17/DocumentLayout.json
+/.vs/RSTRockying/v17/fileList.bin
+/.vs/RSTRockying/v17/HierarchyCache.v1.txt
+/.vs/ProjectEvaluation/rstrockying.metadata.v7.bin
+/.vs/ProjectEvaluation/rstrockying.projects.v7.bin
+/.vs/RSTRockying/DesignTimeBuild/.dtbcache.v2
+/.vs/RSTRockying/FileContentIndex/3315a94d-c12a-4a62-9606-33bcde36bc7f.vsidx

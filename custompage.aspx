@@ -31,8 +31,8 @@
     <%}
         else
         { %>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-        <%
+    <div class="row row-cols-1 row-cols-lg-3 row-cols-xl-4 g-4">
+        <%--<%
             if (CurrentUser != null)
             {
                 using (RockyingDataClassesDataContext dc = new RockyingDataClassesDataContext(Utility.ConnectionString))
@@ -65,7 +65,7 @@
         </div>
         <%}
                 }
-            }%>
+            }%>--%>
         <%foreach (Article item in HPM.HeroList)
             { %>
         <div class="col">

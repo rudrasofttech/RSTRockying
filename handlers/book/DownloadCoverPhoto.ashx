@@ -56,7 +56,7 @@ public class DownloadCoverPhoto : IHttpHandler
                 }
             }
         }
-        catch (Exception ex)
+        catch (Exception)
         {
 
         }
